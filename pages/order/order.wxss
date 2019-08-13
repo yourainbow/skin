@@ -1,0 +1,29 @@
+/* pages/order/order.wxss */
+.box1{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 40rpx;
+  border-color:#00F5FF;
+  border-style: solid;
+  margin-left: 42%;
+  margin-top:60rpx;
+}
+.dian{
+  font-size: 40rpx;
+  width: 100%;
+  margin-left: 39%;
+  margin-top:12rpx;
+}
+.body{
+  position: relative;
+  margin-top: 80rpx;
+  height: 60rpx;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: blue;
+  border-radius: 40rpx;
+  border-color:#00F5FF;
+  border-style: solid; 
+  align-items: center;
+  text-align: center;
+}

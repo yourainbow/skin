@@ -1,0 +1,7 @@
+<view class="box1" bindtap="">
+  <image class="my" style="width:120rpx; height:120rpx;" mode="aspectFill" src="/images/my.png"></image>
+</view>
+
+<text class="dian">点击登陆</text>
+
+<view class="body" wx:for="{{array}}"> {{item}}</view>

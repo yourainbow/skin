@@ -1,0 +1,135 @@
+/* pages/chat/chat.wxss */
+.head{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20rpx;
+ 
+}
+.box1{
+  display: flex;
+  flex-direction: row;
+  width: 33.333%;
+  height: 80rpx;
+  border-style: solid;
+  border-color: #00acff;
+  align-items: center;
+  text-align: center;
+  padding-left: 50rpx;
+}
+.box12{
+  font-size: 33rpx;
+}
+.headNext{
+  border-bottom-style:solid;
+  border-bottom-color: #00acff;
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60rpx;
+}
+.box21{
+  margin-left: 80rpx;
+  margin-top: 7rpx;
+}
+.box22{
+  margin-left: 460rpx;
+  margin-top:5rpx;
+}
+
+.body1{
+  position: relative;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 320rpx;
+  border-bottom-style: solid;
+  border-bottom-color: #00acff;
+}
+.body1top{
+  position: relative;
+  margin-top: 5rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-bottom-color: #00acff;
+}
+.body1top1{
+  font-size: 34rpx;
+  width: 30%;
+  margin-left: 30rpx;
+}
+.body1top2{
+  font-size: 40rpx;
+  width: 15%;
+  margin-left: 400rpx;
+}
+
+.body1down{
+ position: relative;
+ 
+}
+.body1down1{
+  width: 100%;
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+}
+.body1down2{
+  width: 100%;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}
+.body1down3{
+  width: 100%;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}
+
+.body2{
+  position: relative;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 320rpx;
+  border-bottom-style: solid;
+  border-bottom-color: #00acff;
+}
+.body2top{
+  position: relative;
+  margin-top: 5rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-bottom-color: #00acff;
+}
+.body2top1{
+  font-size: 34rpx;
+  width: 30%;
+  margin-left: 30rpx;
+}
+.body2top2{
+  font-size: 40rpx;
+  width: 15%;
+  margin-left: 400rpx;
+}
+
+.body2down{
+ position: relative;
+ 
+}
+.body2down1{
+  width: 100%;
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+}
+.body2down2{
+  width: 100%;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}
+.body2down3{
+  width: 100%;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}

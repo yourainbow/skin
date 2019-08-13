@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/chat/chat",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/test/test",
+    "pages/testr/testr",
+    "pages/rank/rank"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00bcff",
+    "navigationBarTitleText": "美妆达人",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#6dc5cf",
+    "backgroundColor": "#f7f7f7",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "images/shop.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "images/recommend.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "畅聊",
+        "iconPath": "images/chat.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "定制",
+        "iconPath": "images/my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

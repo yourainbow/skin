@@ -1,0 +1,6 @@
+
+<scroll-view scroll-y="true" style="height: 100%">
+    <view class="scrollBox"  wx:for="{{goodslist}}">
+      <view class="Boxname">{{item.category_name}}</view>  
+    </view>
+</scroll-view>

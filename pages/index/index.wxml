@@ -1,0 +1,78 @@
+<view class="header">
+  <view class="search_box" bindtap="goSearch">
+    <view class="search_box_type">
+      <image src="{{searchIcon}}" mode="aspectFit"></image>
+      <text>{{searchsample}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="contain">
+  <view class="contain_top">
+    <view class="contain_top_top">
+      <text class="icon">|</text>
+      <text class="testtext">测一测</text>
+    </view>
+    <view class="contain_top_bottom">
+      <image src="../../images/sweep.png" mode="aspectFit" bindtap="goTest"></image>
+    </view>
+  </view>
+  <view class="contain_bottom">
+    <view class="contain_bottom_top">
+      <text class="icon">|</text>
+      <text class="testtext">肤质历史</text>
+    </view>
+    <view class="contain_bottom_bottom">
+      <image src="../../images/history.png" mode="aspectFit" bindtap="goTestResult"></image>
+    </view>
+  </view>
+</view>
+
+
+
+
+<view class="footer">
+  <view class="footer_top">
+    <view class="footer_top_top">
+      <view wx:for="{{topimgs}}" wx:key="{{index}}" class="top_box">
+        <image src="{{item}}" class="Topimg" mode="aspectFit"  data-index="{{index}}" bindtap="topIndex"></image>
+      </view>
+    </view>
+    <view class="footer_top_bottom">
+      <view class="fonts_box" wx:for="{{fonts_text}}" wx:key="{{index}}">
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <view class="footer_bottom">
+    <view class="footer_bottom_top">
+      <view wx:for="{{bottomimgs}}" wx:key="{{index}}" class="top_box">
+        <image src="{{item}}" class="Topimg" mode="aspectFit"  data-index="{{bottom_num[index]}}" bindtap="bottomIndex"></image>
+      </view>
+    </view>
+    <view class="footer_bottom_bottom">
+      <view class="fonts_box" wx:for="{{font_text}}" wx:key="{{index}}">
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+</view> 
+
+
+
+
+<view class="box">
+  <view wx:for='{{goodslist}}' class="box1" >
+    <image class="box2" src="{{item.commodity_cover}}" mode="scaleToFill"></image>
+    <view class="commodity__info">
+      <view class="commodity__name">{{ item.commodity_name }}</view>
+      <view class="commodity__price">￥{{ item.commodity_price }}</view>
+    </view>
+  </view>
+</view>
+
+
+
+
+

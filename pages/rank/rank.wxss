@@ -1,0 +1,13 @@
+.scrollBox{
+  border-bottom-style: solid;
+  border-bottom-color: #00d4ff;
+  border-right-style: solid;
+  border-right-color: #00d4ff;
+  width: 100px; 
+  height: 40px;
+}
+.Boxname{
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: 18rpx;
+}

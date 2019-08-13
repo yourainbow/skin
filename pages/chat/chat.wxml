@@ -1,0 +1,50 @@
+<view class="head"> 
+    <view class="box1" wx:for="{{menu}}">
+      <image class="box11" src="{{item.menu_image}}" style="width:42rpx;height:42rpx"></image> 
+      <view class="box12">{{item.menu_name}}</view>       
+    </view>   
+</view>
+
+<view class="headNext">
+    <text class="box21">首页</text>
+    <image src="../../images/chatAdd.png" class="box22" style="width:60rpx;height:60rpx"></image>
+</view>
+
+<view class="body1">
+  <view class="body1top">
+    <text class="body1top1">热门话题</text>
+    <view class="body1top2"> > </view>
+  </view>
+  <view class="body1down">
+    <view class="body1down1"> # (征集)你们想聊的话题  </view>
+    <view class="body1down2"> #  敏感肌肤用什么去黑头比较好呢？ </view>
+    <view class="body1down3"> #  低成本美白</view>
+  </view>
+</view>
+
+<view class="body2">
+  <view class="body2top">
+    <text class="body2top1">同肤质在聊</text>
+    <view class="body2top2"> > </view>
+  </view>
+  <view class="body2down">
+    <view class="body2down1"> #  美白丸真的能美白吗？ </view>
+    <view class="body2down2"> #  发现一款去黑头神器</view>
+    <view class="body2down3"> #  油皮一人说一款好用的产品</view>
+  </view>
+</view>
+
+
+<view class="body2">
+  <view class="body2top">
+    <text class="body2top1">新话题</text>
+    <view class="body2top2"> > </view>
+  </view>
+  <view class="body2down">
+    <view class="body2down1"> #  好尴尬啊，护肤品上脸总是（搓泥） </view>
+    <view class="body2down2"> #  腮红加高光，涂了就是小仙女</view>
+    <view class="body2down3"> #  腮黄打底会很元气</view>
+  </view>
+</view>
+
+

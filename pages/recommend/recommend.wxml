@@ -1,0 +1,57 @@
+<view class="box1">
+  <view class="box2">
+    <view class="box3"> 
+      <text class="ball1">我的肤质近况：</text>
+      <text class="ball2" >78</text>
+      <image class="ball3" src="/images/questionMark.png" style="width:40rpx;height:40rpx"></image>
+    </view>
+    <view class="box4"> 
+      <text class="ball4">综合得分</text> 
+    </view>
+    <view class="box5"> 
+      <text class="box51">肤质：</text>
+      <view class="box52"><text>特征一</text></view>
+      <view class="box53"><text>特征二</text></view>
+      <view class="box54"><text>特征三</text></view>
+    </view>
+    <view class="box6">
+      <text class="box61">问题：</text>
+      <view class="box62"><text>问题一</text></view>
+      <view class="box63"><text>问题二</text></view>
+      <view class="box64"><text>问题三</text></view>
+    </view>
+    <view class="box7">
+      <text class="box71">根据07月09号~07月09日的一条检测记录生成</text> 
+    </view>
+  </view>
+</view>
+
+<view class="body" wx:for="{{array}}"> {{item}}</view>
+
+<view class="thefoot">
+   <view class="foot1">
+     <text class="foot2">我们为您推荐:</text>
+   </view>
+   <view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">选项一的内容</view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">选项二的内容</view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">选项三的内容</view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 3}}">选项四的内容</view>     
+            </view>
+        </view>
+    </view>
+</view>
+</view>
+
+
